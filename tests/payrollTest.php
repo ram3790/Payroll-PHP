@@ -9,7 +9,7 @@ final class PayrollTest extends TestCase
 
     public function setUp()
     {
-        $this->payroll = new \App\Payroll;
+        $this->payroll = new \App\DatesCalculations;
     }
 
     /** @test */
